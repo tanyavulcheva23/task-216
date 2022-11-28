@@ -18,7 +18,9 @@ html {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background: $background;
 }
-
+ .terms{
+     overflow-y: auto;
+ }
 .main {
   padding-top: 20vh;
   display: flex;
@@ -26,6 +28,7 @@ html {
   justify-content: center;
   box-shadow: 50%;
 }
+
 
 .main {
   height: 100vh;
